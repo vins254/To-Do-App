@@ -58,12 +58,5 @@ To run this project locally:
 3. **Open the project**:
    Simply open `index.html` in your favorite browser.
 
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
 
 Developed with ❤️ by [Vins](https://github.com/vins254)
