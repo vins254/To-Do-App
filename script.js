@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const loadTasksFromLocalStorage = () => {
         const savedTasks = JSON.parse(localStorage.getItem('tasks')) || [];
-        savedTasks.foreach(({ text, completed }) => addTask(text, completed, false));
+        savedTasks.forEach(({ text, completed }) => addTask(text, completed, false));
         toggleEmptyState();
         updateProgress();
     };
